@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ImpactoRH</title>
+  <meta name="title" content="ImpactoRH">
+  <meta name="description" content="ImpactoRH Empresa especializada em gestão de pessoas">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="readme-images/logoImpacto.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/styleService.css">
+
+  <!-- 
+    - preload images
+  -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/intersection-observer/1.0.0/intersection-observer.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+
+  <header class="header" data-header>
+
+    <div class="container">
+
+
+      <a href="#" class="logo">
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/m.png" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">INICIO</a>
+          </li>
+
+          <li>
+            <a href="servico.html" class="navbar-link">SERVIÇOS</a>
+          </li>
+
+          <li>
+            <a href="sobrenos.html" class="navbar-link">SOBRE NÓS</a>
+          </li>
+
+          <li>
+            <a href="eventos.html" class="navbar-link">EVENTOS</a>
+          </li>
+
+          <li>
+            <a href="contato.html" class="navbar-link">CONTATE-NOS</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">contato@impactorh.com.br</a>
+
+
+
+          <ul class="social-list">
+
+            <p>Siga-nos</p>
+            <li>
+              <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/impactorh_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <div class="loader">
+    <div></div>
+  </div>
+  <main>
+    <article>
+      <section class="section service" aria-label="our stats"
+        style="background-image: linear-gradient(rgba(0, 4, 255, 0.384), rgba(0, 0, 0, 0.589)), url('readme-images/R (2).jpg'); background-position: center;">
+        <div class="container" style="height: 185px;">
+          <h1 style="text-align: center; color:#fff; font-size: 30px; "><strong>SERVIÇO</strong></h1>
+
+        </div>
+      </section>
+      <style>
+        .moving-image {
+          position: relative;
+          animation: moveUpDown 0.9s infinite alternate;
+        }
+
+        @keyframes moveUpDown {
+          0% {
+            transform: translateY(0);
+          }
+
+          100% {
+            transform: translateY(-10px);
+          }
+        }
+
+        .feature-content {
+          opacity: 0;
+          animation: fade-in 2s ease-in-out forwards;
+        }
+
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      </style>
+
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <div class="feature-content" style="display: flex; align-items: center;">
+
+            <figure class="feature-banner">
+              <img src="readme-images/curso.jpg" loading="lazy" alt="Ligula tristique quis risus"
+                class="img-home moving-image">
+            </figure>
+
+
+
+          </div>
+          <div class="feature-content ">
+
+            <p class="section-subtitle" id="feautre-label">Comece com o pé direito</p>
+
+            <h2 class="h2 section-title">
+              Impulsionando o Sucesso:
+            </h2>
+
+            <p class="section-text" style="color: #000;">
+              Expandindo Competências: Capacitação e Acompanhamento de Agentes de Crédito para Programas Estaduais de
+              Microcrédito.
+            </p>
+            <p class="section-text" style="color: gre;">
+              A missão da Impacto RH é fornecer serviços de consultoria especializada em Recursos Humanos, com foco na
+              formação e capacitação continuada de agentes de crédito, bem como no acompanhamento dos programas
+              estaduais de microcrédito. Nossa dedicação é expandir competências e promover o desenvolvimento de
+              profissionais que atuam nessa área, visando fortalecer o acesso ao crédito e impulsionar o
+              empreendedorismo por meio do microcrédito.
+            </p>
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="about" aria-labelledby="about-label"
+        style="background-image: linear-gradient(rgba(2, 80, 168, 0.404), rgba(0, 0, 0, 0.452)), url('readme-images/azul.jpg'); height: 100vh; display: flex; justify-content: center; align-items: center;">
+        <div class="container">
+          <div class="feature-content">
+            <p class="section-subtitle" id="feautre-label" style="word-wrap: break-word;">Transforme seu sucesso</p>
+            <h2 class="h2 section-title" style="color: white;">Expandindo Horizontes com a Impacto RH</h2>
+            <p class="section-text">A Impacto RH oferece uma ampla gama de serviços para o desenvolvimento e
+              aprimoramento profissional. Nossas soluções incluem:</p>
+          </div>
+          <div class="feature-content" style="display: flex; align-items: center; justify-content: flex-end;">
+            <ul class="feature-list">
+              <li>
+                <div class="feature-card1" style="border: 1px solid black; border-radius: 10px; padding: 10px;">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true" style="width: 20px; height: 20px;"></ion-icon>
+                  </div>
+                  <h1 style="font-size: 20px;">palestras técnicas</h1>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card1" style="border: 1px solid black; border-radius: 10px; padding: 10px;">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true" style="width: 20px; height: 20px;"></ion-icon>
+                  </div>
+                  <h1 style="font-size: 20px;">palestras motivacionais</h1>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card1" style="border: 1px solid black; border-radius: 10px; padding: 10px;">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true" style="width: 20px; height: 20px;"></ion-icon>
+                  </div>
+                  <h1 class="hover-white" style="font-size: 20px;">jogos de empresa</h1>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card1" style="border: 1px solid black; border-radius: 10px; padding: 10px;">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true" style="width: 20px; height: 20px;"></ion-icon>
+                  </div>
+                  <h1 class="hover-white" style="font-size: 20px;">treinamentos comportamentais</h1>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        .feature-card1 h1 {
+          font-size: 40px;
+          transition: color 0.3s ease;
+          color: #000;
+        }
+
+        .feature-card1:hover h1 {
+          color: #013A84;
+        }
+
+        .feature-card1:hover {
+
+          background-color: #eaeaea;
+        }
+
+        .feature-card1 {
+          border: 1px solid black;
+          border-radius: 10px;
+          padding: 10px;
+          background-color: white;
+          transition: background-color 0.4s ease;
+        }
+
+        .feature-card1:hover {
+          background-color: black;
+          color: white;
+        }
+      </style>
+      <style>
+        .accordion-section {
+          text-align: center;
+          margin-top: 100px;
+        }
+
+        .accordion-section .container {
+          display: inline-block;
+          text-align: left;
+        }
+
+        .accordion-section h2 {
+          margin-bottom: 10px;
+          text-align: center;
+          color: #013A84;
+
+        }
+
+        .accordion-section .p1 {
+          margin-top: 10px;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        .accordion-section p {
+          font-size: 15px;
+        }
+
+
+        .accordion-section .accordion-header {
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 10px;
+        }
+
+        .accordion-section .accordion-content {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 5px;
+        }
+
+        .accordion-section .accordion-header.active {
+          background-color: lightgray;
+        }
+
+        .accordion-section .accordion-header:hover {
+          background-color: lightblue;
+        }
+
+        .accordion-section .accordion-header.active+.accordion-content {
+          max-height: 500px;
+          /* Ajuste a altura máxima desejada */
+        }
+
+        .accordion-header::after {
+          content: "\25B6";
+          /* Ícone da seta para baixo */
+          float: right;
+          margin-left: 5px;
+          transition: transform 0.3s ease-in-out;
+        }
+
+        .accordion-header.active::after {
+          transform: rotate(90deg);
+          /* Gira o ícone da seta para cima quando o acordeão está aberto */
+        }
+      </style>
+      </head>
+
+      <body>
+
+
+        <section class="accordion-section">
+          <div class="container">
+            <div class="center">
+              <h2>Tópicos Principais</h2>
+              <p class="p1">Se desejar obter mais informações sobre nossos serviços, faça contato com a nossa equipe.
+              </p>
+            </div>
+            <div class="accordion-header">Como a Impacto RH contribui para a formação e capacitação de agentes de
+              crédito?</div>
+            <div class="accordion-content">
+              <p>Oferecendo programas de formação e treinamento contínuo para agentes de crédito.
+                Disponibilizando conteúdos especializados sobre análise de crédito, técnicas de vendas e relacionamento
+                com clientes.
+                Realizando acompanhamento personalizado para garantir o desenvolvimento e aprimoramento das habilidades
+                dos agentes.</p>
+            </div>
+
+            <div class="accordion-header">Qual é o diferencial da Impacto RH em relação a outras empresas de recursos
+              humanos?</div>
+            <div class="accordion-content">
+              <p>O diferencial da Impacto RH está na sua abordagem personalizada e focada no cliente. A empresa busca
+                compreender as necessidades específicas de cada cliente e oferecer soluções sob medida para atender a
+                essas demandas. Além disso, a Impacto RH possui uma equipe de profissionais experientes e qualificados,
+                que estão sempre atualizados em relação às melhores práticas e tendências do mercado de recursos
+                humanos. Essa combinação de expertise e comprometimento faz da Impacto RH uma parceira confiável e
+                eficiente para as empresas que buscam otimizar a gestão de pessoas.</p>
+            </div>
+
+            <div class="accordion-header">Como a Impacto RH promove a reciclagem de forma exemplar em relação ao
+              desenvolvimento profissional de seus colaboradores?</div>
+            <div class="accordion-content">
+              <p>A Impacto RH acredita na importância da reciclagem profissional como um processo contínuo de
+                aprendizado e aprimoramento. Nós valorizamos o desenvolvimento de nossos colaboradores e buscamos
+                oferecer oportunidades de reciclagem de conhecimentos e habilidades. Implementamos programas de
+                capacitação e treinamento, que visam atualizar e aprimorar as competências dos profissionais em
+                diferentes áreas, como gestão de pessoas, recrutamento, treinamento e desenvolvimento. Além disso,
+                promovemos a participação em workshops, palestras e eventos relacionados ao setor de Recursos Humanos,
+                proporcionando uma reciclagem de informações e práticas atualizadas. Através dessas iniciativas, a
+                Impacto RH investe na reciclagem profissional de seus colaboradores, incentivando o crescimento e o
+                aperfeiçoamento contínuo de suas habilidades para melhor atender às demandas do mercado e oferecer
+                soluções de alta qualidade aos nossos clientes.</p>
+            </div>
+
+            <div class="accordion-header">Como foi criada a metodologia?</div>
+            <div class="accordion-content">
+              <p>A partir do conceito de microcrédito criado por Muhammad Yunus, o Bandes passa a visitar alguns modelos
+                já utilizados no Brasil para avaliar qual se adequaria melhor ao perfil do Espírito Santo. O modelo
+                escolhido foi o do Banco do Povo Paulista baseado em três pilares: aplicação de recurso, controle de
+                carteira e controle de inadimplência.</p>
+            </div>
+          </div>
+        </section>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            var accordionHeaders = document.querySelectorAll('.accordion-header');
+
+            accordionHeaders.forEach(function (header) {
+              header.addEventListener('click', function () {
+                if (this.classList.contains('active')) {
+                  this.classList.remove('active');
+                  var accordionContent = this.nextElementSibling;
+                  accordionContent.style.maxHeight = null;
+                } else {
+                  var openAccordions = document.querySelectorAll('.accordion-header.active');
+                  openAccordions.forEach(function (openAccordion) {
+                    openAccordion.classList.remove('active');
+                    var openAccordionContent = openAccordion.nextElementSibling;
+                    openAccordionContent.style.maxHeight = null;
+                  });
+
+                  this.classList.add('active');
+                  var accordionContent = this.nextElementSibling;
+                  accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                }
+              });
+            });
+          });
+        </script>
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+
+
+        <p class="footer-text">
+          &copy; 2022 Impacto RH
+        </p>
+
+        <ul class="social-list">
+          <p>Siga-nos</p>
+          <li>
+            <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/impactorh_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Localização</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            R. General Osório, 127, Edifício A gazeta, - Salas 301 e 302 - Centro
+            Vitória - ES , 29010-035, BR
+          </address>
+        </li>
+        <li>
+          <p class="h4 footer-list-title">E-mail</p>
+        </li>
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">contato@impactorh.com.br</a>
+        </li>
+
+
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <a href="#" class="logo">
+          <img src="readme-images/logoImpacto.png" width="250" height="30" alt="Adex home">
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    $(window).on('load', function () {
+      $(".loader").fadeOut(1000);
+      $(".content").fadeIn(1000);
+    });
+  </script>
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

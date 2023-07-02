@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ImpactoRH</title>
+  <meta name="title" content="ImpactRH">
+  <meta name="description" content="ImpactoRH Empresa especializada em gestão de pessoas">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="readme-images/logoImpacto.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/m.png" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">INICIO</a>
+          </li>
+
+          <li>
+            <a href="servico.html" class="navbar-link">SERVIÇOS</a>
+          </li>
+
+          <li>
+            <a href="sobrenos.html" class="navbar-link">SOBRE NÓS</a>
+          </li>
+
+          <li>
+            <a href="eventos.html" class="navbar-link">EVENTOS</a>
+          </li>
+
+          <li>
+            <a href="contato.html" class="navbar-link">CONTATE-NOS</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">contato@impactorh.com.br</a>
+
+
+
+          <ul class="social-list">
+
+            <p>Siga-nos</p>
+            <li>
+              <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/impactorh_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home" style="background-image: linear-gradient(rgba(75, 56, 241, 0.5), rgba(0, 0, 0, 0.658)), url('readme-images/curso.jpg'); position: relative; ">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title"></h1>
+            <img src="assets/images/m.png" alt="Texto alternativo" style="width: 80%;">
+            <br>
+            <br>
+            <br>
+            <div class="btn-wrapper">
+            </div>
+          </div>
+          <div class="hero-slider" data-slider>
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+                <li class="slider-item">
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+              alt="Ligula tristique quis risus" class="img-home">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Por que a Impacto RH?</p>
+
+            <h2 class="h2 section-title">
+              Um pouco do que é a IMPACTO RH
+            </h2>
+
+            <p class="section-text">
+              A Impacto RH é uma empresa de Recursos Humanos especializada em oferecer soluções e consultoria para
+              gestão de pessoas. Seu foco está em:
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    recrutamento
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Treinamento
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Desenvolvimento
+                  </span>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+
+
+            <h2 class="h2 section-title">
+              Missão, Visão e Valores.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">MISSÃO</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Ser guardiã da metodologia microcrédito.
+                    <br>
+                    Trazer encantamento para as relações de trabalho
+                    <br>
+                    fazer o funcionário vestir a camisa
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">VISÃO</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    A primeira a ser lembrada quando o assunto for formação de agente de microcrédito
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">VALORES</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Paixão
+                    <br>
+                    Encanto
+                    <br>
+                    Envolvimento
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label" style="font-size: 200%;">Quais são os nossos serviços?</p>
+
+          <h2 class="h2 section-title" style="font-size: 120%;">
+            Veja abaixo alguns serviços oferecidos
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Consultorias</h3>
+
+
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Reciclagens</h3>
+
+
+
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Eventos</h3>
+
+
+
+
+
+              </div>
+
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Palestras tecnicas</h3>
+
+
+
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+        <br>
+        <div class="container" style="display: flex; justify-content: center; align-items: center;">
+          <a href="servico.html" class="btn btn-primary">Serviços</a>
+
+          <button class="nav-open-btn" aria-label="" data-nav-toggler>
+
+          </button>
+        </div>
+
+      </section>
+
+
+
+      <!-- 
+        - #STATS
+      -->
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+          <p class="section-subtitle" id="service-label" style="font-size: 200%; text-align: center;">NOSSOS CLIENTES:
+          </p>
+
+          <ul class="stats-card has-bg-image"
+            style="background-color: #013A84; display: flex; justify-content: center; align-items: center;">
+            <li class="client-image" style="margin-right: 20px;">
+              <img src="readme-images/PsvbakxSoCIDJGpEORBPnjpmHCuqWGqcvgBJaiJppjOivoHjBwOPfcnGaOLpafGz.png" alt=""
+                style="width: 200px; max-width: 100%;">
+            </li>
+            <li class="client-image">
+              <img src="readme-images/Brasão de Rondônia.png" alt="" style="width: 140px; max-width: 100%;">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+
+
+          <h2 class="h2 section-title">
+            EVENTOS RECENTES
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./readme-images/R.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ligula tristique quis risus</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./readme-images/R (1).jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+              <br>
+
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./readme-images/OIP.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+    </article>
+
+  </main>
+
+  
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+
+
+        <p class="footer-text">
+          &copy; 2022 Impacto RH
+        </p>
+
+        <ul class="social-list">
+          <p>Siga-nos</p>
+          <li>
+            <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/impactorh_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Localização</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            R. General Osório, 127, Edifício A gazeta, - Salas 301 e 302 - Centro
+            Vitória - ES , 29010-035, BR
+          </address>
+        </li>
+        <li>
+          <p class="h4 footer-list-title">E-mail</p>
+        </li>
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">contato@impactorh.com.br</a>
+        </li>
+
+
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <a href="#" class="logo">
+          <img src="readme-images/logoImpacto.png" width="250" height="30" alt="Adex home">
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ImpactoRH</title>
+  <meta name="title" content="ImpactoRH">
+  <meta name="description" content="ImpactoRH Empresa especializada em gestão de pessoas">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="readme-images/logoImpacto.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/styleService.css">
+
+  <!-- 
+    - preload images
+  -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/intersection-observer/1.0.0/intersection-observer.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+
+  <header class="header" data-header>
+
+    <div class="container">
+
+
+      <a href="#" class="logo">
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/m.png" width="74" height="24" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/m.png" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">INICIO</a>
+          </li>
+
+          <li>
+            <a href="servico.html" class="navbar-link">SERVIÇOS</a>
+          </li>
+
+          <li>
+            <a href="sobrenos.html" class="navbar-link">SOBRE NÓS</a>
+          </li>
+
+          <li>
+            <a href="eventos.html" class="navbar-link">EVENTOS</a>
+          </li>
+
+          <li>
+            <a href="contato.html" class="navbar-link">CONTATE-NOS</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">contato@impactorh.com.br</a>
+
+
+
+          <ul class="social-list">
+
+            <p>Siga-nos</p>
+            <li>
+              <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/impactorh_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+  <div class="loader">
+    <div></div>
+  </div>
+  <main>
+    <article>
+      <section class="section service" aria-label="our stats"
+        style="background-image: linear-gradient(rgba(0, 4, 255, 0.384), rgba(0, 0, 0, 0.589)), url('readme-images/R (2).jpg'); background-position: center;">
+
+        <div class="container" style="height: 185px;">
+          <h1 style="text-align: center; color:#fff; font-size: 30px; "><strong>SOBRE NÓS</strong></h1>
+        </div>
+      </section>
+      <h2 style="font-size: 40px; margin-top: 80px; text-align: center; color: rgba(3, 3, 122, 0.692);">Nossa
+        história:
+      </h2>
+
+
+      <section class="section feature" aria-labelledby="feature-label;">
+        <div class="container" style="display: flex; justify-content: center; align-items: center;">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title">Erladeson Capucho: Primeiro Assistente Técnico de Microcrédito com foco
+                  na
+                  Capacitação Continuada</h3>
+                <br>
+                <p class="timeline-description">Primeira equipe formada de assistente técnico de microcrédito
+                  Erladeson Capucho ingressa como primeiro assistente técnico responsavel pela capacitação
+                  continuada.
+                </p>
+              </div>
+              <div class="timeline-date">2005</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title">Rodrigo Pope reforça a equipe de técnicos como novo membro</h3>
+                <br>
+                <p class="timeline-description">Rodrigo Pope ingressa a equipe de técnicos.</p>
+              </div>
+              <div class="timeline-date">2007</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title">Franz Fortalece a Equipe de Técnicos como Novo Integrante</h3>
+                <br>
+                <p class="timeline-description">Franz integra a equipe de técnicos</p>
+              </div>
+              <div class="timeline-date">2009</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title">Equipe de Expandida: Kiko, Bianca, Erladeson, Bethania, Franz e Rodrigo
+                  se
+                  Tornam Sócios</h3>
+                <br>
+                <p class="timeline-description">Sócios: Kiko, Bianca, Erlandeson, Bethania, Franz e Rodrigo</p>
+              </div>
+              <div class="timeline-date">2016</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title">A Nova Formação da Equipe de Sócios:</h3>
+                <br>
+                <p class="timeline-description">Sócios: Bianca, Erlandeson, Bethania, Franz e Rodrigo</p>
+              </div>
+              <div class="timeline-date">2019</div>
+            </div>
+
+
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <br>
+                <h3 class="timeline-title"> Impacto RH Vence</h3>
+                <br>
+                <p class="timeline-description">Aderes assume a gestão do Programa e abre nova licitação onde a
+                  Impacto
+                  RH vence.</p>
+              </div>
+              <div class="timeline-date">2020</div>
+            </div>
+
+            <!-- Adicione mais eventos aqui -->
+
+          </div>
+
+
+          <style>
+            .timeline {
+              position: relative;
+              max-width: 800px;
+              margin: 0 auto;
+              padding: 40px 0;
+            }
+
+            .timeline::before {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 4px;
+              height: 100%;
+              background-color: #ccc;
+            }
+
+            .timeline-item {
+              position: relative;
+              margin-bottom: 40px;
+            }
+
+            .timeline-date {
+              position: absolute;
+              top: -20px;
+              left: 50%;
+              transform: translateX(-50%);
+              display: inline-block;
+              padding: 8px 16px;
+              background-color: #290480b4;
+              color: #fff;
+              font-weight: bold;
+              border-radius: 4px;
+              z-index: 1;
+            }
+
+            .timeline-content {
+              padding: 20px;
+              background-color: #f5f5f5;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+              transition: transform 0.3s ease;
+            }
+
+            .timeline-item:hover .timeline-content {
+              transform: translateY(-5px);
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .timeline-title {
+              margin-top: 0;
+              font-size: 20px;
+              font-weight: bold;
+            }
+
+            .timeline-description {
+              margin-bottom: 0;
+              font-size: 16px;
+            }
+          </style>
+
+        </div>
+        <div class="container" style="display: flex; justify-content: center; align-items: center;">
+          <a href="historia.html" class="btn btn-primary">Nossa História</a>
+        </div>
+
+
+      </section>
+      </section>
+
+      <style>
+        .moving-image {
+          position: relative;
+          animation: moveUpDown 0.9s infinite alternate;
+        }
+
+        @keyframes moveUpDown {
+          0% {
+            transform: translateY(0);
+          }
+
+          100% {
+            transform: translateY(-10px);
+          }
+        }
+
+        .feature-content {
+          opacity: 0;
+          animation: fade-in 2s ease-in-out forwards;
+        }
+
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      </style>
+
+
+
+
+      <div class="feature-content" style="display: flex; align-items: center;"> </div>
+
+
+
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container" style="  margin-top: 50px;
+        margin-bottom: 100px;">
+          <figure class="about-banner">
+            <h1 style="font-size: 40px;">NOSSA EQUIPE</h1>
+            <p>A equipe da Imacpto RH é altamente qualificada e experiente em suas respectivas áreas de atuação. Cada
+              membro desempenha um papel fundamental no desenvolvimento e sucesso da empresa. Com sua expertise e
+              comprometimento, eles trabalham em conjunto para fornecer soluções eficientes e serviços de qualidade aos
+              clientes da Imacpto RH. Além disso, a equipe está sempre atualizada com as últimas tendências e práticas
+              do mercado de recursos humanos, garantindo que possam oferecer o melhor suporte e assistência aos
+              clientes.</p>
+
+        </div>
+
+
+      </section>
+
+
+
+      <section class="image-card">
+
+
+
+        <h1 style="text-align: center; color: #fff;"><strong>RELAÇÕES INSTITUCIONAIS</strong></h1>
+        <div class="card-container">
+
+          <div class="card card0">
+            <div class="border">
+              <h2 class="cardc">Lando</h2>
+
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <h4>Superintendência Região Sul • Relações Institucionais com Prefeituras da Região Sul
+                ·Relações institucionais Sebrae</h4>
+            </div>
+
+          </div>
+
+          <div class="card card1">
+            <div class="border">
+              <h2 class="cardc">FRANZ</h2>
+
+              <h4>Superintendência Região Norte • Relações Institucionais com Prefeituras da Região norte
+                ·Relações institucionais Banestes</h4>
+            </div>
+          </div>
+
+
+        </div>
+        <h1 style="text-align: center; margin-top: 50px; color: #fff;"><strong>GERÊNCIA IMPACTO RH</strong></h1>
+        <div class="card-container">
+
+          <div class="card card2">
+            <div class="border">
+              <h2 class="cardc">FELIPE<span class="span">NossoCrédito</span></h2>
+
+
+
+              <h4>Suporte da assistência técnica
+                • Painel de microcrédito (uso do painel, criação e alteração de usuários, emissão de relatórios do
+                painel)
+                • Suporte técnico a equipe Banestes para dúvidas e solicitações
+                • Suporte técnico da superintendência • Prestação de contas
+                • Acompanhamento do enfrentamento da inadimplência</h4>
+            </div>
+
+          </div>
+
+        </div>
+        <h1 style="text-align: center; margin-top: 50px; color: #fff;">APOIO TÉCNICO</span></h1>
+        <div class="card-container">
+
+          <div class="card card3">
+            <div class="border">
+              <h2 class="cardc">Rozilda<span class="span">banco comunitario</span></h2>
+
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <h4>dsakdsak</h4>
+            </div>
+
+          </div>
+
+
+
+          <div class="card card4">
+            <div class="border">
+              <h2 class="cardc">Andeilson<span class="span">Aderes na estrada</span></h2>
+              <h4>
+                Gestão e execução do projeto Aderes na Estrada
+                • Acompanhamento de manutenções da Unidade móvel
+                Prestação de contas do projeto
+                • Agente de crédito Aderes</h4>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="card card5">
+            <div class="border">
+              <h2 class="cardc">Andréia<span class="span">Nossocrédito</span></h2>
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </div>
+              <h4>
+                Apoio Técnico Suporte da assistência técnica
+                • Emissão de relatórios gerenciais e prestação de contas
+                • Suporte técnico da superintendência
+                • Gestão de agenda de compromissos</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+
+          <div class="card card6">
+            <div class="border">
+              <h2 class="cardc">1</h2>
+
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <h4>dsakdsak</h4>
+            </div>
+          </div>
+          <div class="card card7">
+            <div class="border">
+              <h2 class="cardc">1</h2>
+
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <h4>dsakdsak</h4>
+            </div>
+          </div>
+          <div class="card card8">
+            <div class="border">
+              <h2 class="cardc">1</h2>
+
+              <div class="icons">
+                <a href="https://www.instagram.com/keven.otto/" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+                <a href="link_do_facebook" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+              </div>
+              <h4>dsakdsak</h4>
+            </div>
+          </div>
+        </div>
+        <style>
+          .span {
+            background: #013A84;
+
+          }
+
+          .card-container {
+            display: flex;
+            justify-content: center;
+          }
+
+          .card {
+            flex-basis: 300px;
+            /* ou qualquer outra largura desejada para os cards */
+            margin: 0 10px;
+            /* ajuste a margem conforme necessário */
+          }
+
+          .border {
+            height: 369px;
+            width: 290px;
+            background: transparent;
+            border-radius: 10px;
+            transition: border 1s;
+            position: relative;
+          }
+
+
+
+          .card {
+            height: 379px;
+            width: 300px;
+            background: #808080;
+            border-radius: 10px;
+            transition: background 0.8s;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+          }
+
+
+
+
+          .card:hover::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease;
+            z-index: 1;
+          }
+
+
+
+          .card0 {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/315763932_678644333897672_2225443219362553143_n.jpg?ccb=11-4&oh=01_AdR4-PTI63sX_I4cLOzk0XAZgfuMjHUJ9h_AfctRsFR38Q&oe=64A8400C") center center no-repeat;
+            background-size: 300px;
+
+          }
+
+          .card0:hover {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/315763932_678644333897672_2225443219362553143_n.jpg?ccb=11-4&oh=01_AdR4-PTI63sX_I4cLOzk0XAZgfuMjHUJ9h_AfctRsFR38Q&oe=64A8400C") cen ter center no-repeat;
+            background-size: 380px;
+
+          }
+
+          .card0:hover .cardc,
+          .card0:hover h4,
+          .card0:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card1 {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/343555817_764298021768120_4685127306318757688_n.jpg?ccb=11-4&oh=01_AdRs7aI1xovzKxg47wh2Ii7X4s8HXUZys7Yb78ElYuNtYA&oe=64A84B49") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card1:hover {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/343555817_764298021768120_4685127306318757688_n.jpg?ccb=11-4&oh=01_AdRs7aI1xovzKxg47wh2Ii7X4s8HXUZys7Yb78ElYuNtYA&oe=64A84B49") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card1:hover .cardc,
+          .card1:hover h4,
+          .card1:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card2 {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/308144122_499420528878748_1123087683140309580_n.jpg?ccb=11-4&oh=01_AdT6j_ItI7OKlSPpy8zPgT9mjnG0Je7-xytpmoouSxcNpg&oe=64A83FFA") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card2:hover {
+            background: url("https://pps.whatsapp.net/v/t61.24694-24/308144122_499420528878748_1123087683140309580_n.jpg?ccb=11-4&oh=01_AdT6j_ItI7OKlSPpy8zPgT9mjnG0Je7-xytpmoouSxcNpg&oe=64A83FFA") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card2:hover .cardc,
+          .card2:hover h4,
+          .card2:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card3 {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card3:hover {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card3:hover .cardc,
+          .card3:hover h4,
+          .card3:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card4 {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card4:hover {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card4:hover .cardc,
+          .card4:hover h4,
+          .card4:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card5 {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card5:hover {
+            background: url("readme-images/IMG_2233.jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card5:hover .cardc,
+          .card5:hover h4,
+          .card5:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card6 {
+            background: url("readme-images/94022229_221209652489566_5460990886106103808_n.jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card6:hover {
+            background: url("readme-images/94022229_221209652489566_5460990886106103808_n.jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card6:hover .cardc,
+          .card6:hover h4,
+          .card6:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card7 {
+            background: url("readme-images/OIP\ \(1\).jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card7:hover {
+            background: url("readme-images/OIP\ \(1\).jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card7:hover .cardc,
+          .card7:hover h4,
+          .card7:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+          .card8 {
+            background: url("readme-images/R\ \(3\).jpg") center center no-repeat;
+            background-size: 300px;
+          }
+
+          .card8:hover {
+            background: url("readme-images/R\ \(3\).jpg") center center no-repeat;
+            background-size: 380px;
+          }
+
+          .card8:hover .cardc,
+          .card8:hover h4,
+          .card8:hover .fa {
+            opacity: 1;
+            position: relative;
+            /* Adiciona posição relativa para os elementos ficarem na frente do ::before */
+            z-index: 2;
+            /* Aumenta o z-index para ficarem acima do ::before */
+          }
+
+
+          .cardc {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #fff;
+            margin: 20px;
+            opacity: 0;
+            transition: opacity 1s;
+            transform: scale(0.8);
+
+          }
+
+          h4 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            color: #fff;
+            margin: 20px;
+            opacity: 0;
+            transition: opacity 1s, transform 0.5s;
+            transform: scale(0.8) translateY(0);
+          }
+
+
+
+
+
+
+
+          .fa {
+            opacity: 0;
+            transition: opacity 1s;
+          }
+
+          .icons {
+            position: absolute;
+            fill: #fff;
+            color: #fff;
+            height: 50px;
+            top: 300px;
+            width: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .image-card {
+            background-image: linear-gradient(rgba(2, 80, 168, 0.404), rgba(0, 0, 0, 0.452)), url('readme-images/azul.jpg');
+            border-radius: 0 0 10px 10px;
+            padding: 20px;
+          }
+
+          .card-container {
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+          .card {
+            /* Estilos do card */
+            width: 300px;
+            /* Largura inicial dos cards */
+            margin-right: 10px;
+            /* Espaçamento entre os cards */
+
+            /* Responsividade */
+            @media (max-width: 768px) {
+              width: 100%;
+              /* Largura total dos cards quando a tela for menor que 768px */
+              margin-right: 0;
+              /* Remover o espaçamento entre os cards */
+              margin-bottom: 10px;
+              /* Espaçamento entre os cards na vertical */
+            }
+          }
+        </style>
+
+      </section>
+      <section>
+        <style>
+          .info-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            width: 100%;
+          }
+
+          .p-text {
+            color: white;
+          }
+
+          .chart-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background: #ffffff;
+            border: 1px solid #fafafa;
+            border-radius: 10px;
+          }
+
+          .chart-container {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          .chart-container canvas {
+            width: 300px;
+          }
+
+          .buttons {
+            margin: 10%;
+            text-align: center;
+          }
+
+          .btn-hover {
+            width: 150px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            cursor: pointer;
+            margin: 20px;
+            height: 55px;
+            text-align: center;
+            border: none;
+            background-size: 300% 100%;
+            border-radius: 50px;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+          }
+
+          .btn-hover:hover {
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+          }
+
+          .btn-hover:focus {
+            outline: none;
+          }
+
+          .btn-hover.color-1 {
+            background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+            box-shadow: 0 4px 15px 0 rgba(49, 196, 190, .75);
+          }
+
+          #popup {
+            display: block;
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            /* Adiciona bordas arredondadas */
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+
+          }
+
+          #toggleButton {
+            margin-bottom: 20px;
+          }
+
+          @media screen and (max-width: 790px) {
+            .chart-container {
+              display: block;
+            }
+
+            .chart-container canvas {
+              width: 100%;
+            }
+          }
+
+          #toggleButton {
+            display: block;
+            margin: 0 auto;
+          }
+
+          .info {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+          }
+
+          #valorInfo {
+            background-color: blue;
+          }
+
+          #quantidadeInfo {
+            background-color: rgb(241, 0, 189);
+          }
+
+          #ticketMedioInfo {
+            background-color: orange;
+          }
+
+          #dataSelecionada {
+            background-color: red;
+          }
+
+          .p-text {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            color: white;
+          }
+        </style>
+        </head>
+
+        <body>
+          <div class="container">
+            <br>
+            <br>
+            <br>
+            <h1
+              style="text-align: center; border: 1px solid #1a049970; border-radius: 10px; font-size: 175%; color: #013A84;">
+              Relatórios de Operações Contratadas de 2020 a 2023 | Programa NOSSOCRÉDITO
+            </h1>
+            <br>
+            <br>
+            <button id="toggleButton" class="btn-hover color-1" onclick="toggleChart()">Mostrar Gráfico</button>
+            <br>  
+            <br>
+            
+            <div class="chart-container" style="background-color: #a8a8a8; margin-top: 10px;">
+              <div class="info-container" style="margin-top: 30px;">
+                <div id="valorInfo" class="info">
+                  <p class="p-text"><i class="fas fa-money-bill-alt"></i> Total Valor Contratado: R$</p>
+                </div>
+                <div id="quantidadeInfo" class="info">
+                  <p class="p-text"><i class="fas fa-chart-bar"></i> Total Quantidade Contratada: </p>
+                </div>
+                <div id="ticketMedioInfo" class="info">
+                  <p class="p-text"><i class="fas fa-dollar-sign"></i> Ticket Médio: R$</p>
+                </div>
+                <div id="dataSelecionada" class="info">
+                  <p class="p-text"><i class="far fa-calendar-alt"></i> Data Selecionada: </p>
+                </div>
+
+              </div>
+              <div class="chart">
+                <canvas id="valorChart"></canvas>
+              </div>
+              <div class="chart">
+                <canvas id="quantidadeChart"></canvas>
+              </div>
+              <div class="chart">
+                <canvas id="ticketMedioChart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script>
+            var dadosValor = [
+  { data: '2020 a 2021', valor: 103309.443 },
+  { data: '2021 a 2022', valor: 69026.626 },
+  { data: '2022 a 2023', valor: 68154.891 }
+];
+
+var dadosQuantidade = [
+  { data: '2020 a 2021', quantidade: 12.433 },
+  { data: '2021 a 2022', quantidade: 6.424 },
+  { data: '2022 a 2023', quantidade: 4.876 }
+];
+
+var valorLabels = [];
+var valorData = [];
+var quantidadeData = [];
+var ticketMedioData = [];
+
+dadosValor.forEach(function (item) {
+  valorLabels.push(item.data);
+  valorData.push(item.valor);
+});
+
+dadosQuantidade.forEach(function (item) {
+  quantidadeData.push(item.quantidade);
+});
+
+for (var i = 0; i < dadosValor.length; i++) {
+  var ticketMedio = dadosValor[i].valor / dadosQuantidade[i].quantidade;
+  ticketMedioData.push(ticketMedio.toFixed(2));
+}
+
+var valorChart = document.getElementById('valorChart').getContext('2d');
+var quantidadeChart = document.getElementById('quantidadeChart').getContext('2d');
+var ticketMedioChart = document.getElementById('ticketMedioChart').getContext('2d');
+var valorChartInstance;
+var quantidadeChartInstance;
+var ticketMedioChartInstance;
+
+function createCharts() {
+  valorChartInstance = new Chart(valorChart, {
+    type: 'bar',
+    data: {
+      labels: valorLabels,
+      datasets: [{
+        label: 'Valor Contratado',
+        data: valorData,
+        backgroundColor: 'rgba(54, 162, 235, 0.9)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            callback: function (value, index, values) {
+              return 'R$ ' + value.toLocaleString('pt-BR');
+            }
+          }
+        }
+      }
+    }
+  });
+
+  quantidadeChartInstance = new Chart(quantidadeChart, {
+    type: 'bar',
+    data: {
+      labels: valorLabels,
+      datasets: [{
+        label: 'Quantidade Contratada',
+        data: quantidadeData,
+        backgroundColor: 'rgba(255, 99, 132, 0.9)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  ticketMedioChartInstance = new Chart(ticketMedioChart, {
+    type: 'bar',
+    data: {
+      labels: valorLabels,
+      datasets: [{
+        label: 'Ticket Médio',
+        data: ticketMedioData,
+        backgroundColor: 'rgba(255, 205, 86, 0.9)',
+        borderColor: 'rgba(255, 205, 86, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            callback: function (value, index, values) {
+              return 'R$ ' + value.toLocaleString('pt-BR');
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+function updateInfo(index) {
+  var valorContratado = dadosValor[index].valor.toLocaleString('pt-BR');
+  var quantidadeContratada = dadosQuantidade[index].quantidade;
+  var ticketMedio = ticketMedioData[index];
+  var dataSelecionada = dadosValor[index].data;
+
+  document.getElementById('valorInfo').innerHTML = '<p class="p-text"><i class="fas fa-money-bill-alt"></i> Total Valor Contratado: R$ ' + valorContratado + '</p>';
+  document.getElementById('quantidadeInfo').innerHTML = '<p class="p-text"><i class="fas fa-chart-bar"></i> Total Quantidade Contratada: ' + quantidadeContratada + '</p>';
+  document.getElementById('ticketMedioInfo').innerHTML = '<p class="p-text"><i class="fas fa-dollar-sign"></i> Ticket Médio: R$ ' + ticketMedio + '</p>';
+  document.getElementById('dataSelecionada').innerHTML = '<p class="p-text"><i class="far fa-calendar-alt"></i> Data Selecionada: ' + dataSelecionada + '</p>';
+}
+
+function toggleChart() {
+  var chartContainer = document.querySelector('.chart-container');
+  var toggleButton = document.getElementById('toggleButton');
+
+  if (chartContainer.style.display === 'none') {
+    chartContainer.style.display = 'flex';
+    toggleButton.textContent = 'Ocultar Gráfico';
+    createCharts();
+
+    // Exibir a notificação quando o gráfico for mostrado
+    Swal.fire({
+      title: 'Clique no gráfico',
+      text: 'Clique no gráfico para ver as informações',
+      icon: 'info',
+      confirmButtonText: 'OK'
+    });
+  } else {
+    chartContainer.style.display = 'none';
+    toggleButton.textContent = 'Mostrar Gráfico';
+  }
+}
+
+valorChart.canvas.parentNode.style.height = '300px';
+quantidadeChart.canvas.parentNode.style.height = '300px';
+ticketMedioChart.canvas.parentNode.style.height = '300px';
+
+valorChart.canvas.parentNode.addEventListener('click', function (evt) {
+  var activePoints = valorChartInstance.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, true);
+
+  if (activePoints.length > 0) {
+    var index = activePoints[0].index;
+    updateInfo(index);
+  }
+});
+
+quantidadeChart.canvas.parentNode.addEventListener('click', function (evt) {
+  var activePoints = quantidadeChartInstance.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, true);
+
+  if (activePoints.length > 0) {
+    var index = activePoints[0].index;
+    updateInfo(index);
+  }
+});
+
+ticketMedioChart.canvas.parentNode.addEventListener('click', function (evt) {
+  var activePoints = ticketMedioChartInstance.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, true);
+
+  if (activePoints.length > 0) {
+    var index = activePoints[0].index;
+    updateInfo(index);
+  }
+});
+
+document.getElementById('toggleButton').addEventListener('click', function () {
+  toggleChart();
+});
+          </script>
+      </section>
+
+      </head>
+
+
+
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+
+
+        <p class="footer-text">
+          &copy; 2022 Impacto RH
+        </p>
+
+        <ul class="social-list">
+          <p>Siga-nos</p>
+          <li>
+            <a href="https://www.facebook.com/Impacto-RH-108418461351931" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/impactorh_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCu3SZ0wUwrnf_C44DRwq63A/featured" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Localização</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            R. General Osório, 127, Edifício A gazeta, - Salas 301 e 302 - Centro
+            Vitória - ES , 29010-035, BR
+          </address>
+        </li>
+        <li>
+          <p class="h4 footer-list-title">E-mail</p>
+        </li>
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">contato@impactorh.com.br</a>
+        </li>
+
+
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <a href="#" class="logo">
+          <img src="readme-images/logoImpacto.png" width="250" height="30" alt="Adex home">
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    $(window).on('load', function () {
+      $(".loader").fadeOut(1000);
+      $(".content").fadeIn(1000);
+    });
+  </script>
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
